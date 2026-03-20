@@ -56,4 +56,4 @@ os.makedirs('data', exist_ok=True)
 joblib.dump(model, os.path.join('data', 'phishing_detector_model.pkl'))
 joblib.dump(vectorizer, os.path.join('data', 'vectorizer.pkl'))
 
-print("Model and vectorizer saved successfully!")
+print("Model and vectorizer saved successfully!")

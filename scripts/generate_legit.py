@@ -25,4 +25,4 @@ output_path = os.path.join(data_dir, 'legitimate_clean.csv')
 # Step 5: Save the CSV file
 df.to_csv(output_path, index=False)
 
-print(f"✅ Legitimate URLs CSV successfully created at:\n{output_path}")
+print(f"✅ Legitimate URLs CSV successfully created at:\n{output_path}")

@@ -64,4 +64,4 @@ if __name__ == "__main__":
     model = joblib.load("models/phish_model.pkl")
     url = input("Enter URL to check: ")
     result = predict_url(url, model)
-    print(f"Prediction: {result}")
+    print(f"Prediction: {result}")

@@ -23,4 +23,4 @@ merged_df = pd.concat([phishing_df, legitimate_df], ignore_index=True)
 merged_path = os.path.join(data_dir, 'all_urls.csv')
 merged_df.to_csv(merged_path, index=False)
 
-print(f"✅ Merged data saved to: {merged_path}")
+print(f"✅ Merged data saved to: {merged_path}")
